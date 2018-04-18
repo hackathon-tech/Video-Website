@@ -474,6 +474,7 @@ ul.social-links li:hover a{
 .video5{
     position: relative;
     overflow: hidden;
+    display: inline-block !important;
     background: rgba(0,0,0,0.5);
 }
 .video5 .thumb-con{
@@ -530,7 +531,6 @@ ul.social-links li:hover a{
     position: relative;
     overflow: hidden;
     background: rgba(0,0,0,0.5);
-    margin-bottom: 20px;
 }
 .video1 .thumb-con{
     position: relative !important;
@@ -671,9 +671,9 @@ ul.social-links li:hover a{
 /* Video Main Small */
 .video-item-small{
     border: none;
+    display: block;
     position: relative;
     overflow: hidden;
-    margin-bottom: 20px;
 }
 .video-item-small .thumb-con{
     position: relative !important;
@@ -787,7 +787,16 @@ ul.social-links li:hover a{
 /* -------------------------------- */
 
 /* ============================ */
-
+/* =========================== */
+/* SLIDERs        */
+/* =========================== */
+.owl-up-nav .btn .text-hvr-sh{
+    font-size: 0px;
+    transition: all 0.5s ease-in;
+}
+.owl-up-nav .btn:hover .text-hvr-sh{
+    font-size: 12px;
+}
 /* =========================== */
 /* HOME / Landing PAGE         */
 /* =========================== */

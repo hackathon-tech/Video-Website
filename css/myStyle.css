@@ -245,9 +245,6 @@ root{
 .form-control{
     border-radius: 0;
 }
-.btn-primary{
-	/*background-image: linear-gradient( 122deg, #e54595, #fd378e);*/
-}
 /* OVERWRITE DEFAULT BUTTON SHADOWs */
 a[class*="btn-"]:focus,button[class*="btn-"]:active{
 	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
@@ -262,8 +259,6 @@ a[class*="btn-"],a:focus,button:active{
           box-shadow: none !important;
 }
 /* Avatar */
-.avatar-con {
-}
 .avatar-con .avatar{
     position: relative;
     bottom: 1px;
@@ -424,7 +419,6 @@ ul.social-links li:hover a{
 /* ========================= */
 /* BLOCKs */
 /* ========================= */
-.block{}
 .block-header {
     margin-top: 20px;
     display: block;
@@ -768,9 +762,6 @@ ul.social-links li:hover a{
    font-size: 12px;
    background: rgba(0,0,0,0.8);
    padding: 2px 5px;
-}
-.media.video2 .video-name{
-    /*color: #fff;*/
 }
 .media.video2 .vid-play {
     opacity: 0;
@@ -1166,9 +1157,6 @@ header .dropdown-menu::before{
     background: #222222;
 }
 /* Notification Icon */
-.dropdown-menu .noti-icon{
-
-}
 /* Notification Icon Size */
 .dropdown-menu .noti-icon .fa{
     font-size: 18px;
@@ -1234,7 +1222,28 @@ header .dropdown-menu::before{
      padding-left: 180px;
     transition: all 01s ease-in;
 }
-/* SIDEBAR NAV PLUGIN          */
+/* ------------------------------------- */
+.page-loginsignup .main-wrapper main.main-content{
+    padding-left: 0;
+}
+.page-loginsignup .main-wrapper main.main-content.left-menu-opened{
+    padding-left: 0;
+}
+.page-login .main-wrapper main.main-content{
+    padding-left: 0;
+}
+.page-login .main-wrapper main.main-content.left-menu-opened{
+    padding-left: 0;
+}
+.page-signup .main-wrapper main.main-content{
+    padding-left: 0;
+}
+.page-signup .main-wrapper main.main-content.left-menu-opened{
+    padding-left: 0;
+}
+/* ================================= */
+/* REGISTER SIGN In, Sign Up Page    */
+/* ================================= */
 
 /* ================================= */
 /* MUSIC SONG AUDIO ALBUM AREA       */
@@ -1556,9 +1565,6 @@ footer .ft-btm .logo{
     }
     .con-video-playing .btn {
         font-size: 12px;
-    }
-    .row-channel-meta{
-
     }
     /* Comments */
     .con-video-playing .comment-text{

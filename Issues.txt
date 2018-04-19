@@ -1,3 +1,7 @@
+Future Plans
+-- Add offcanvas.js in nav (from bootstrap 4.1)
+-- Add floating labels in forms (via Bt 4 Floatig Labels)
+Issues
 -- Left Sidebar Smooth Animation
 -- OWL Carousel Navigation
--- 
+--  

@@ -1,0 +1,78 @@
+// Overwrite Bootstrap's variables here
+// You can find them in node_modules/bootstrap/scss/_variables.scss
+// Copy the variables you need into this file, don't modify files under node_modules/
+
+// Some example variables that you can uncomment:
+
+// GLOBAL VARIABLES variables that you can uncomment:
+$enable-caret:              true;
+// Changing the border radius of buttons (not suitable variable)
+$enable-rounded:            false;
+$enable-transitions:        true;
+$enable-hover-media-query:  false; // Deprecated, no longer affects any compiled CSS
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+
+
+// shadows and gradients
+$enable-shadows: true;
+// $enable-gradients: true;
+
+// Changing the body background and text
+// $body-bg: #d3e9eb;
+// $body-color: gren;
+
+
+
+// Theme colors
+$primary: #E41E65;
+$secondary: #436296;
+$light: #dfe6ee;
+$dark: #0f1319;
+$indigo: #6610f2;
+// Changing default theme colors (ex. classes btn-cool, text-cool, bg-cool, alert-cool etc)
+$theme-colors: (
+  "primary": #E41E65,
+// Adding (!) additional theme colors (ex. classes it applies to everything like alerts, btns, etc)
+  "blue":       #007bff,
+  "indigo":     $indigo,
+  "purple":     #6f42c1,
+  "pink":       #e83e8b,
+  "red":        #dc3545,
+  "orange":     #fd7e14,
+  "yellow":     #ffc107,
+  "green":      #28a745,
+  "teal":       #20c997,
+  "cyan":       #17a2b8,
+  "white":      #fff,
+  "gray":       #6c757d,
+  "gray-dark":  #343a40,
+// Adding (!) an additional theme color (ex. classes btn-cool, text-cool, bg-cool, alert-cool etc)
+  "awaaz": #d80b04
+);
+// ---------------------------------
+// Grids
+// ---------------------------------
+// Create Custome Grid Sizes
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px
+// ) 
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px
+// )
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+// $grid-columns:                24 !default;
+// $grid-gutter-width:           25px !default;

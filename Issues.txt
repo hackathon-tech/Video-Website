@@ -3,8 +3,24 @@ Future Plans
 -- Add floating labels in forms (via Bt 4 Floatig Labels)
 -- Add Email Verification Tool
 -- Add Form Validation Tool
--- 
+-- add hints on forms 
+-- Add user pic when user is found at signin time
+-- Admin dashboard Templete Design to manage user and site status
+-- Add more Quick sign in and Quick sign up options
 Issues
 -- Left Sidebar Smooth Animation
 -- OWL Carousel Navigation
 --  
+
+
+
+// NOTEs
+-- User Data to be collected
+- Name - Father Name - CNIC -  DOB - CELL - GENDdER - EMAIL 
+-  -  -  -  -  - 
+-- 
+-- 
+-- 
+-- 
+-- 
+-- 

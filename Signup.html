@@ -14,7 +14,7 @@
     <!-- Icons Files -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.gif">
     <!-- CSS Files -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/myStyle.css">
@@ -34,37 +34,37 @@
     <!-- HEADER Container Start -->
     <!-- ////////////////////// -->
     <header class="main-header">
-        <div class="container-fluid main-navbar">
-            <!-- Row Start -->
-            <div class="row ">
-                <!-- Col Start -->
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark">
-                        <a href="" class="navbar-brand">
-                            <img class="d-inline-block align-top" src="img/logo2.png" width="auto" height="30" alt="">
-                        </a>
-
-                        <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" data-target="#top-main-navbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse " id="top-main-navbar">
-                           <ul class="navbar-nav ml-auto">
-                               <li class="nav-item dropdown">
-                                    <a class="nav-link" href="" data-toggle="dropdown">Ayoub Khan</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+            <div class="container main-navbar">
+                <!-- Row Start -->
+                <div class="row ">
+                    <!-- Col Start -->
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark">
+                            <a href="" class="navbar-brand">
+                                <img class="d-inline-block align-top" src="img/logo2.png" width="auto" height="30" alt="">
+                            </a>
+    
+                            <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" data-target="#top-main-navbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+    
+                            <div class="collapse navbar-collapse " id="top-main-navbar">
+                               <ul class="navbar-nav ml-auto">
+                                   <li class="nav-item dropdown">
+                                        Already Have an Account? <a class="btn btn-xs btn-light" href="">Sign In Here</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- Col End -->
                 </div>
-                <!-- Col End -->
+                <!-- Row End -->
             </div>
-            <!-- Row End -->
-        </div>
-    </header>
-    <!-- ////////////////////// -->
-    <!-- HEADER Container End -->
-    <!-- ////////////////////// -->
+        </header>
+        <!-- ////////////////////// -->
+        <!-- HEADER Container End -->
+        <!-- ////////////////////// -->
 
 
 
@@ -80,22 +80,73 @@
     <!-- ////////////////////// -->
     <!-- MAIN CONTENT Start           -->
     <!-- ////////////////////// -->
-    <main class="main-content">
+    <main>
       
         <!--  Container Start -->
-        <div class="container-fluid">
+        <div class="container-fluid mt-4 con-sign-up">
             <!-- Row Start -->
             <div class="row justify-content-center">
                 <!-- Col Start -->
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 main">
+                <div class="col-xl-5 col-lg-5 col-md-6 col-sm-8 col-xs-12 main">
                     <!-- BLOCK Start -->
                     <div class="block-header">
-                        <h6 class="block-heading">Welcome</h6>
-                        <div class="brdr" style="background: #27A243;"></div>
+                        <h6 class="block-heading">Sign Up <small class="text-muted">Its free and always will be</small></h6>
+                        <div class="brdr" style="background: #28A745;"></div>
                     </div>
                     <div class="block">
                         <div class="block-body">
-                            Body
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control form-control-sm" id="inputFirstName1" placeholder="First name">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="text" class="form-control form-control-sm" id="inputLastName1" placeholder="Last name">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-12">
+                                        <input type="email" class="form-control form-control-sm" id="inputUsername1" placeholder="Username">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <input type="email" class="form-control form-control-sm" id="inputEmail1" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
+                                        <input type="password" class="form-control form-control-sm" id="inputPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <input type="password" class="form-control form-control-sm" id="inputPassword2" placeholder="Retype your Password">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-success btn-block">Sign Up</button>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <small>By Signing up you agree to our <a href="">Terms of Services</a>  and <a href="">Privacy Policy</a>  </small> 
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="border-line my-3"></div>
+                            <h6 class="text-center mb-3">Quick Sign Up Using</h6>
+                            <div class="row mt-2">
+                                <div class="col-6">
+                                    <button class="btn btn-facebook btn-block" href="">
+                                        <span class="fa fa-facebook"></span>
+                                        Facebook
+                                    </button>
+                                </div>
+                                <div class="col-6">
+                                    <button href="" class="btn btn-google btn-block">
+                                            <span class="fa fa-google icon"></span>
+                                        Twitter
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- BLOCK End -->
@@ -104,6 +155,25 @@
                 <!-- Col End -->
             </div>
              <!-- Row End -->
+             <!-- Row Start -->
+            <div class="row justify-content-center">
+                    <!-- Col Start -->
+                    <div class="col-xl-5 col-lg-5 col-md-6 col-sm-8 col-xs-12 main">
+                        <!-- BLOCK Start -->
+                        <div class="block-header">
+                           <div class="brdr" style="background: #DDBB0B;"></div>
+                        </div>
+                        <div class="block">
+                            <div class="block-body text-center">
+                                Already Have an Account? <a class="btn btn-xs btn-primary" href="">Sign In Here</a>
+                            </div>
+                        </div>
+                        <!-- BLOCK End -->
+    
+                    </div>
+                    <!-- Col End -->
+                </div>
+                 <!-- Row End -->
         </div>
          <!--  Container End -->
 
@@ -113,23 +183,17 @@
         <!-- ////////////////////// -->
         <!-- FOOTER Start           -->
         <!-- ////////////////////// -->
-        <footer class="page-footer">
+        <footer class="page-footer mt-5">
             <div class="border-line"></div>
-            <div class="container-fluid ft-mdl">
+            <div class="container ft-mdl">
                 <!-- Row Start -->
                 <div class="row justify-content-center">
                     <!-- Col Start -->
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="d-flex  d-flex justify-content-between">
+                        <div class="d-flex justify-content-center">
                             <ul class="footer-links">
                                 <li><a href="">About</a></li> 
                                 <li><a href="">Sitemap</a></li>
-                                <li><a href="">Suggestions</a></li>
-                            </ul>
-                            <ul class="footer-links">
-                                <li><a href="">Terms</a></li>
-                                <li><a href="">Copyright</a></li>
-                                <li><a href="">Privacy &amp; Policy</a></li>
                             </ul>
                         </div>
                     </div>
@@ -137,16 +201,14 @@
             </div>
 
                 <!-- FOOTER Bottom Start -->
-            <div class="container-fluid ft-btm">
+            <div class="container ft-btm">
                 <!-- Row Start -->
                 <div class="row justify-content-center">
                     <!-- Col Start -->
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <d class="flex">
-                            <img class="img-fluid logo" src="img/logo.png">
+                        <d class="flex ">
                             <p class="text-center copyright-text d-inline-flex pl-3">
-                                © 2018 YouTube. All Rights Reserved | Programmed with All passion &amp;
-                                <i class="fa fa-heart love"></i> 
+                                <small>© 2018 Awaaz. All Rights Reserved.
                             </p>
                         </d>
                         <!-- Col End -->

@@ -1,5 +1,5 @@
 /*
-Template Name: YouTube - Video Portal Theme
+Template Name: Awaaz - Video Portal Theme
 Author: Mohammad Ayoub Khan, Chaman Bhatti
 Author URI:  http://themeforest.net/user/ayoubkhan
 */
@@ -65,16 +65,12 @@ body{
     
     /* Page Background Color */
     background: #171717;
-
      /* Page Background IMAGE */
     /*background-image: url('../img/bg_maze_black_2X.png');*/
 }
-*{
+/* body{
     transition: all 0.5s ease-in-out;
-}
-body{
-    transition: all 0.5s ease-in-out;
-}
+} */
 a{
     font-size: .875rem;
 	color: white;
@@ -151,67 +147,20 @@ p{
 [class*="btn-"]:focus{
     box-shadow: none;
 }
+/* Forms */
+.form-control {
+    color: #fff !important;
+    background: #151618;
+    border-color: rgba(0, 0, 0, 0.432);
+}
+.form-control:focus{
+    border-color: rgba(221, 28, 99, 0.9);
+    background-color: #151618;
+    box-shadow: 0 0 0 0.2rem rgba(221, 28, 99, 0.3);
+}
 /* =========================== */
-/* BG Classes & TEXT Classes */
+/* BUTTONS CLASSES */
 /* =========================== */
-root{
-  --red: #d9534f;
-  --orange: #f0ad4e;
-  --green: #5cb85c;
-  --white: #fff;
-  --gray: #868e96;
-  --gray-dark: #343a40;
-}
-.bg-purple{
-    background: #6f42c1;
-}
-.bg-danger{
-    background: #E41E65 !important;
-}
-.bg-pink{
-    background: #e83e8c;
-}
-.bg-indigo{
-    background: #6610f2;
-}
-.bg-blue{
-    background: #DF691A;
-}
-.bg-teal{
-    background: #20c997;
-}
-.bg-cyan{
-    background: #5bc0de;
-}
-.bg-yellow{
-    background: #f0ad4e;
-}
-/* Text Classes */
-.text-purple{
-    color: #6f42c1;
-}
-.text-yellow{
-    color: #f0ad4e;
-}
-.text-cyan{
-    color: #5bc0de;
-}
-
-.text-teal{
-    color: #20c997;
-}
-
-.text-blue{
-    color: #DF691A;
-}
-
-.text-indigo{
-    color:  #6610f2;
-}
-.text-purple{
-    color:  #e83e8c;
-}
-
 /* Extra Small buttons */
 .btn-xs, .btn-group-xs > .btn {
   padding: 0.30rem 0.5rem;
@@ -235,15 +184,63 @@ root{
 .mw-4{
     min-width: 200px;
 }
-
-.btn{
-    border-radius: 0;
+/* SOCIAL BUTTONS */
+.btn-facebook{
+    background: #3B5998;
+    color: #fff;
+    border-color: #3B5998;
 }
-.form-control-sm, .input-group-sm>.form-control, .input-group-sm>.input-group-append>.btn, .input-group-sm>.input-group-append>.input-group-text, .input-group-sm>.input-group-prepend>.btn, .input-group-sm>.input-group-prepend>.input-group-text{
-    border-radius: 0;
+.btn-facebook:hover{
+    background: rgba(59, 88, 152, 0.7738);
+    border-color: rgba(59, 88, 152, 0.749);
 }
-.form-control{
-    border-radius: 0;
+.btn-facebook-ico{
+    width: 40px;
+    height: auto;
+    background: #5D9CEC;
+    color: #fff;
+    border-color: #5D9CEC;
+}
+.btn-twitter{
+    background: #55ACEE;
+    color: #fff;
+    border-color: #52B1D5;
+}
+.btn-twitter-ico{
+    background: #4FC1E9;
+    color: #fff;
+    width: 40px;
+    height: auto;
+    border-color: #4FC1E9;
+}
+.btn-twitter:hover{
+    background: rgba(82, 178, 213, 0.756);
+    border-color: rgba(82, 178, 213, 0.763);
+}
+.btn-google{
+    background: rgb(39, 110, 224);
+    color: #fff;
+    border-color: #0C5EE3;
+}
+.btn-google:hover{
+    background: #0C5EE3;
+    border-color: #0C5EE3;
+}
+.btn-google-plus{
+    background: #DD4B39;
+    color: #fff;
+    border-color: #DD4B39;
+}
+.btn-google-plus:hover{
+    background: #DD4B39;
+    border-color: #DD4B39;
+}
+.btn-google-plus-ico{
+    color: #fff;
+    width: 40px;
+    height: auto;
+    background: #EE614F;
+    border-color: #EE614F;
 }
 /* OVERWRITE DEFAULT BUTTON SHADOWs */
 a[class*="btn-"]:focus,button[class*="btn-"]:active{
@@ -810,9 +807,6 @@ ul.social-links li:hover a{
     background: #000;
     margin-bottom: 20px;
 }
-.btn-outline-dark{
-    color: #fff;
-}
 .con-video-playing .img-channel-logo{
     width: auto;
     height: 45px;
@@ -1106,7 +1100,7 @@ header.main-header{
 }
 /* MAIN CONTENT */
 .main-wrapper{
-    display: table;
+    display: block;
     width: 100%;
     position: relative;
     top: 56px;
@@ -1114,22 +1108,22 @@ header.main-header{
 /* Dropdown */
 .dropdown-menu{
     border-radius: 0;
-    background: #2B2B2B;
-    background: #555;
     background: #323232;
+    /* background: #3B3B3B; */
     border: 1px solid #555;
+    border: none;
 }
-header .dropdown-menu::before{
+/* header .dropdown-menu::before{
     content: '';
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 0 10px 10px 10px;
-    border-color: transparent transparent #49443F transparent;
+    border-color: transparent transparent #323232 transparent;
     position: absolute;
     top: -10px;
     right: 14px;
-}
+} */
 .dropdown-menu .dropdown-menu-header{
     padding: 10px 12px;
     text-align: center;
@@ -1144,7 +1138,6 @@ header .dropdown-menu::before{
 .dropdown-menu .dropdown-item a .media-body{
     color: #CACACA !important;
 }
-
 .dropdown-menu .dropdown-item{
     color: #C7C7C7;
     padding: .25rem 0.8rem;
@@ -1185,8 +1178,6 @@ header .dropdown-menu::before{
     margin: 2px 0;
     border-top: 1px solid #414141;
 }
-
-
 .dropdown-menu{
     box-shadow: 0 1px 1px 4px rgba(0,0,0,.05);
 }
@@ -1223,138 +1214,55 @@ header .dropdown-menu::before{
     transition: all 01s ease-in;
 }
 /* ------------------------------------- */
-.page-loginsignup .main-wrapper main.main-content{
-    padding-left: 0;
-}
-.page-loginsignup .main-wrapper main.main-content.left-menu-opened{
-    padding-left: 0;
-}
-.page-login .main-wrapper main.main-content{
-    padding-left: 0;
-}
-.page-login .main-wrapper main.main-content.left-menu-opened{
-    padding-left: 0;
-}
-.page-signup .main-wrapper main.main-content{
-    padding-left: 0;
-}
-.page-signup .main-wrapper main.main-content.left-menu-opened{
-    padding-left: 0;
-}
+
 /* ================================= */
 /* REGISTER SIGN In, Sign Up Page    */
 /* ================================= */
 
-/* ================================= */
-/* MUSIC SONG AUDIO ALBUM AREA       */
-/* ================================= */
-.song{
-    overflow: hidden;
+/* Sign In Page  */
+.page-login .main-navbar{
+    position: relative !important;
+} 
+.page-login {
+    background-image: url('../img/star-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
 }
-.song .song-thumb-con{
-    position: relative;
-}
-.song .song-overlay{
-    position: absolute;
+.page-login .main-wrapper{
     top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #000;
-    opacity: 0;
-    transition: all 0.4s ease-in-out;
 }
-.song:hover .song-overlay{
-    opacity: 0.4;
+/* REGISTER SIGN In PAGE */
+.page-loginsignup .main-wrapper{
+    top: 0;
 }
-.song .song-play-btn{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -30px 0 0 -30px;
-    font-size: 30px;
-    text-align: center;
-    border: 2px solid white;
-    padding: 9px;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    color: #fff;
-    text-shadow: 0px 0px 15px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
-    transition: all 0.4s ease-in-out;
+.page-loginsignup .main-wrapper{
+    top: 15px;
 }
-.song:hover .song-play-btn{
-    color: pink;
+.page-loginsignup .main-navbar{
+    position: relative !important;
+} 
+.page-loginsignup{
+    background-image: url('../img/star-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
 }
-.song .song-dur{
-    background: rgba(0,0,0,0.8);
-    padding: 4px 10px;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    font-weight: 600;
-    border-radius: 20px;
+.con-sign-up .block{
+    box-shadow: 0px 5px 25px rgb(0, 0, 0) !important;
 }
-.song .add-to-playlist{
-    background: rgba(0,0,0,0.8);
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    bottom: 5px;
-    left: 5px;
-    text-align: center;
-    font-weight: 600;
-    border-radius: 50%;
+/* Sign Up Page  */
+.page-signup .main-wrapper{
+    top: 0;
 }
-.song .add-to-fav{
-    background: rgba(0,0,0,0.8);
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
-    font-weight: 600;
-    border-radius: 50%;
+.page-signup .main-navbar{
+    position: relative !important;
 }
-.song .badge{
-    background: rgba(0,0,0,0.8);
-    padding: 5px;
-    width: 90px;
-    height: 30px;
-    text-align: center;
-    position: absolute;
-    left: -15px;
-    top: 8px;
-    line-height: 1.3;
-    font-size: 15px;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 40px;
-}
-.song .song-info{
-    text-align: center;
-}
-.song  .song-name a{
-    font-size: 20px;
-    font-weight: 300;
-    padding-bottom: 5px;
-    width: 100%;
-    border-bottom: 1px dashed rgba(255,255,255,0.1);
-}
-.song  .song-artist{
-    color: gray;
-    float: left;
-}
-.song  .song-gen{
-    float: right;
-}
-
-.song{
-    margin-bottom: 25px;
+.page-signup {
+    background-image: url('../img/star-bg.svg'), url(/images/star-bg.svg),linear-gradient(#191c20, #24292e 15%);
+    /* background-image: url('../img/star-bg.svg'), url('../img/bmw_cruise_m_bike_limited_edition-3840x2160.jpg'); */
+    background-repeat: repeat;
+    background-position: left bottom;
 }
 /* =================== */
 /* Chat AREA           */
@@ -1395,7 +1303,7 @@ header .dropdown-menu::before{
     vertical-align: middle;
     margin-right: 5px;
 }
-.page-footer .footer-logo .youtube{
+.page-footer .footer-logo .Awaaz{
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 0;

@@ -14,7 +14,7 @@
     <!-- Icons Files -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.gif">
     <!-- CSS Files -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/myStyle.css">
@@ -34,7 +34,7 @@
     <!-- HEADER Container Start -->
     <!-- ////////////////////// -->
     <header class="main-header">
-            <div class="container-fluid main-navbar">
+            <div class="container main-navbar">
                 <!-- Row Start -->
                 <div class="row ">
                     <!-- Col Start -->
@@ -51,7 +51,7 @@
                             <div class="collapse navbar-collapse " id="top-main-navbar">
                                <ul class="navbar-nav ml-auto">
                                    <li class="nav-item dropdown">
-                                        <a class="nav-link" href="" data-toggle="dropdown">Ayoub Khan</a>
+                                        Already Have an Account? <a class="btn btn-xs btn-primary" href="">Sign In Here</a>
                                     </li>
                                 </ul>
                             </div>
@@ -71,101 +71,277 @@
 
 
 
+
+
+        
 <div class="main-wrapper d-block">
 
-    <!-- ////////////////////// -->
-    <!-- MAIN CONTENT Start           -->
-    <!-- ////////////////////// -->
-    <main class="main-content left-menu-opened">
-      
-        <!--  Container Start -->
-        <div class="container-fluid">
-            <!-- Row Start -->
-            <div class="row justify-content-center">
-                <!-- Col Start -->
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 main">
-                     <!-- BLOCK Start -->
-                    <div class="block-header">
-                        <div class="brdr" style="background: #27A243;"></div>
+        <!-- ////////////////////// -->
+        <!-- MAIN CONTENT Start           -->
+        <!-- ////////////////////// -->
+        <main>
+          <!--  Container Start -->
+          <div class="container-fluid mt-4">
+                <!-- Row Start -->
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#signin" role="tab" aria-selected="true">Sign In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="signup-tab" data-toggle="tab" href="#signup" role="tab" aria-selected="false">Register</a>
+                                </li>
+                            </ul>
                     </div>
-                    <div class="block">
-                        Ayoub
-                    </div>
-                    <!-- BLOCK End -->
-                    <!-- BLOCK Start -->
-                    <div class="block-header">
-                        <h6 class="block-heading">Welcome to PakStream</h6>
-                        <div class="brdr" style="background: #27A243;"></div>
-                    </div>
-                    <div class="block">
-                        <div class="block-body">
-                            Body
-                        </div>
-                    </div>
-                    <!-- BLOCK End -->
-
                 </div>
-                <!-- Col End -->
             </div>
-             <!-- Row End -->
-        </div>
-         <!--  Container End -->
-
-
-
-
-       <!-- ////////////////////// -->
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="signin" role="tabpanel" aria-labelledby="signin-tab">      
+                    <!--  Container Start -->
+                    <div class="container-fluid mt-3 con-sign-up">
+                        <!-- Row Start -->
+                        <div class="row justify-content-center">
+                            <!-- Col Start -->
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-xs-12 main">
+                                <!-- BLOCK Start -->
+                                <div class="block-header">
+                                    <h6 class="block-heading">Sign In Text</h6>
+                                    <div class="brdr" style="background: #27A243;"></div>
+                                </div>
+                                <div class="block">
+                                    <div class="block-body">
+                                        Auoub Khan
+                                    </div>
+                                </div>
+                                <!-- BLOCK End -->
+                                <!-- BLOCK Start -->
+                                <div class="block-header">
+                                    <div class="brdr" style="background: #DDBB0B;"></div>
+                                    </div>
+                                    <div class="block">
+                                        <div class="block-body text-center">
+                                            Ayoub Khan is is is 
+                                        </div>
+                                    </div>
+                                    <!-- BLOCK End -->
+                            </div>
+                            <!-- Col End -->
+                            <!-- Col Start -->
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-xs-12 main">
+                                    <!-- BLOCK Start -->
+                                    <div class="block-header">
+                                        <h6 class="block-heading">Sign In</h6>
+                                        <div class="brdr" style="background: #27A243;"></div>
+                                    </div>
+                                    <div class="block">
+                                        <div class="block-body">
+                                            <form action="">
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-12">
+                                                        <input type="text" class="form-control form-control-sm" id="inputUsername1" placeholder="Username">
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-12">
+                                                        <input type="password" class="form-control form-control-sm" id="inputPassword1" placeholder="Password">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="form-group col-12">
+                                                        <div class="custom-control custom-checkbox mr-sm-2">
+                                                            <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                                                            <label class="custom-control-label" for="customControlAutosizing">Remember me</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <button type="submit" class="btn btn-success btn-block">Sign In</button>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-2">
+                                                    <div class="col-12">
+                                                        <small>By Signing up you agree to our <a href="">Terms of Services</a>  and <a href="">Privacy Policy</a>  </small> 
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!-- BLOCK End -->
+                                    <!-- BLOCK Start -->
+                                    <div class="block-header">
+                                        <h6 class="block-heading">Other Sign In Options</h6>
+                                        <div class="brdr" style="background: #DDBB0B;"></div>
+                                    </div>
+                                    <div class="block">
+                                        <div class="block-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    Create your free account Now
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- BLOCK End -->
+                                </div>
+                                <!-- Col End -->
+                            
+                        </div>
+                        <!-- Row End -->
+                    </div>
+                    <!--  Container End -->
+                </div>   
+                        
+                <div class="tab-pane fade" id="signup" role="tabpanel" aria-labelledby="signup-tab">
+                    <!--  Container Start -->
+                    <div class="container-fluid mt-3 con-sign-up">
+                        <!-- Row Start -->
+                        <div class="row justify-content-center">
+                            <!-- Col Start -->
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-xs-12 main">
+                                    <!-- BLOCK Start -->
+                                    <div class="block-header">
+                                        <h6 class="block-heading">Sign Up Text</h6>
+                                        <div class="brdr" style="background: #27A243;"></div>
+                                    </div>
+                                    <div class="block">
+                                        <div class="block-body">
+                                           Text text is here.
+                                        </div>
+                                    </div>
+                                    <!-- BLOCK End -->
+                                    <!-- BLOCK Start -->
+                                <div class="block-header">
+                                        <h6 class="block-heading">Other Sign In Options</h6>
+                                        <div class="brdr" style="background: #DDBB0B;"></div>
+                                    </div>
+                                    <div class="block">
+                                        <div class="block-body">
+                                                Create your free account Now
+                                        </div>
+                                    </div>
+                                    <!-- BLOCK End -->
+                                </div>
+                                <!-- Col End -->
+                            <!-- Col Start -->
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8 col-xs-12 main">
+                                <!-- BLOCK Start -->
+                                <div class="block-header">
+                                    <h6 class="block-heading">Sign Up <small class="text-muted">Its free and always will be</small></h6>
+                                    <div class="brdr" style="background: #27A243;"></div>
+                                </div>
+                                <div class="block">
+                                    <div class="block-body">
+                                        <form action="">
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <input type="text" class="form-control form-control-sm" id="inputFirstName1" placeholder="First name">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <input type="text" class="form-control form-control-sm" id="inputLastName1" placeholder="Last name">
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-12">
+                                                    <input type="email" class="form-control form-control-sm" id="inputUsername1" placeholder="Username">
+                                                </div>
+                                                <div class="form-group col-md-12">
+                                                    <input type="email" class="form-control form-control-sm" id="inputEmail1" placeholder="Email">
+                                                </div>
+                                            </div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <input type="password" class="form-control form-control-sm" id="inputPassword1" placeholder="Password">
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <input type="password" class="form-control form-control-sm" id="inputPassword2" placeholder="Retype your Password">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group col-12">
+                                                    <div class="custom-control custom-checkbox mr-sm-2">
+                                                        <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+                                                        <label class="custom-control-label" for="customControlAutosizing"><small>Agree to our <a href="">Terms of Services</a>  and <a href="">Privacy Policy</a>  </small> 
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-12">
+                                                    <button type="submit" class="btn btn-success btn-block">Sign Up</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- BLOCK End -->
+                                <!-- BLOCK Start -->
+                                <div class="block-header">
+                                    <div class="brdr" style="background: #DDBB0B;"></div>
+                                    </div>
+                                    <div class="block">
+                                        <div class="block-body text-center">
+                                            Already Have an Account <a class="btn btn-xs btn-primary" href="">Sign In Here</a>
+                                        </div>
+                                    </div>
+                                    <!-- BLOCK End -->
+                            </div>
+                            <!-- Col End -->
+                        </div>
+                        <!-- Row End -->
+                    </div>
+                    <!--  Container End -->
+                </div>
+            </div>
+    
+    
+      <!-- ////////////////////// -->
         <!-- FOOTER Start           -->
         <!-- ////////////////////// -->
-        <footer class="page-footer">
-            <div class="border-line"></div>
-            <div class="container-fluid ft-mdl">
-                <!-- Row Start -->
-                <div class="row justify-content-center">
-                    <!-- Col Start -->
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="d-flex  d-flex justify-content-between">
-                            <ul class="footer-links">
-                                <li><a href="">About</a></li> 
-                                <li><a href="">Sitemap</a></li>
-                                <li><a href="">Suggestions</a></li>
-                            </ul>
-                            <ul class="footer-links">
-                                <li><a href="">Terms</a></li>
-                                <li><a href="">Copyright</a></li>
-                                <li><a href="">Privacy &amp; Policy</a></li>
-                            </ul>
+        <footer class="page-footer mt-5">
+                <div class="border-line"></div>
+                <div class="container ft-mdl">
+                    <!-- Row Start -->
+                    <div class="row justify-content-center">
+                        <!-- Col Start -->
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="d-flex  d-flex justify-content-between">
+                                <ul class="footer-links">
+                                    <li><a href="">About</a></li> 
+                                </ul>
+                                <ul class="footer-links">
+                                    <li><a href="">Sitemap</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-                <!-- FOOTER Bottom Start -->
-            <div class="container-fluid ft-btm">
-                <!-- Row Start -->
-                <div class="row justify-content-center">
-                    <!-- Col Start -->
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <d class="flex">
-                            <img class="img-fluid logo" src="img/logo.png">
-                            <p class="text-center copyright-text d-inline-flex pl-3">
-                                © 2018 YouTube. All Rights Reserved | Programmed with All passion &amp;
-                                <i class="fa fa-heart love"></i> 
-                            </p>
-                        </d>
-                        <!-- Col End -->
+    
+                    <!-- FOOTER Bottom Start -->
+                <div class="container ft-btm">
+                    <!-- Row Start -->
+                    <div class="row justify-content-center">
+                        <!-- Col Start -->
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <d class="flex">
+                                <p class="text-center copyright-text d-inline-flex pl-3">
+                                    <small>© 2018 Awaaz. All Rights Reserved
+                                </p>
+                            </d>
+                            <!-- Col End -->
+                        </div>
                     </div>
+                <!-- Row End -->
                 </div>
-            <!-- Row End -->
-            </div>
-            <!-- FOOTER Bottom End -->
-        </footer>
-        <!-- ////////////////////// -->
-        <!-- FOOTER End             -->
-        <!-- ////////////////////// -->
-    </main>
-
-</div>
+                <!-- FOOTER Bottom End -->
+            </footer>
+            <!-- ////////////////////// -->
+            <!-- FOOTER End             -->
+            <!-- ////////////////////// -->
+        </main>
+    
+    </div>
 
     <!-- JS Files -->
     <script src="js/jquery-3.js"></script>

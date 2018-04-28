@@ -1,0 +1,111 @@
+
+/* ================================= */
+/* MUSIC SONG AUDIO ALBUM AREA       */
+/* ================================= */
+.song{
+    overflow: hidden;
+}
+.song .song-thumb-con{
+    position: relative;
+}
+.song .song-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+.song:hover .song-overlay{
+    opacity: 0.4;
+}
+.song .song-play-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -30px;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 9px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    color: #fff;
+    text-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+    transition: all 0.4s ease-in-out;
+}
+.song:hover .song-play-btn{
+    color: pink;
+}
+.song .song-dur{
+    background: rgba(0,0,0,0.8);
+    padding: 4px 10px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.song .add-to-playlist{
+    background: rgba(0,0,0,0.8);
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 50%;
+}
+.song .add-to-fav{
+    background: rgba(0,0,0,0.8);
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-weight: 600;
+    border-radius: 50%;
+}
+.song .badge{
+    background: rgba(0,0,0,0.8);
+    padding: 5px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    left: -15px;
+    top: 8px;
+    line-height: 1.3;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 40px;
+}
+.song .song-info{
+    text-align: center;
+}
+.song  .song-name a{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    width: 100%;
+    border-bottom: 1px dashed rgba(255,255,255,0.1);
+}
+.song  .song-artist{
+    color: gray;
+    float: left;
+}
+.song  .song-gen{
+    float: right;
+}
+.song{
+    margin-bottom: 25px;
+}
